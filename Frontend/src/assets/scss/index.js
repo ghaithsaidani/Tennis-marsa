@@ -1,0 +1,1 @@
+export {default as GeneralStyle} from './CssModules.module.scss'

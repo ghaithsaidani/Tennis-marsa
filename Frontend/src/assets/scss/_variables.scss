@@ -1,0 +1,43 @@
+$primaryLight: #e3f2fd;
+$primaryMain:#FF9A3E;
+$primaryDark: #1e88e5;
+$primary200: #90caf9;
+$primary800: #1565c0;
+@font-face {
+  font-family: NIKEA;
+  src: url("../fonts/NIKEA.otf");
+}
+
+@font-face {
+  font-family: Aukim;
+  src: url("../fonts/AukimExtraBold.otf");
+}
+
+@font-face {
+  font-family: Kunika;
+  src: url("../fonts/Kunika.otf");
+}
+
+@font-face {
+  font-family: GOTHAM;
+  src: url("../fonts/Gotham-Font/Gotham-Light.otf");
+}
+
+@font-face {
+  font-family: Overpass;
+  src: url("../fonts/Overpass-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Alike;
+  src: url("../fonts/Alike-Regular.ttf");
+}
+
+:export {
+  // primary
+  primaryLight: $primaryLight;
+  primary200: $primary200;
+  primaryMain: $primaryMain;
+  primaryDark: $primaryDark;
+  primary800: $primary800;
+}
